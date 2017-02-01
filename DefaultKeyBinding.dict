@@ -1,0 +1,18 @@
+{  
+	/* vim arrows */  
+	"^h" = "moveBackward:";  
+	"^l" = "moveForward:";  
+	"^k" = "moveUp:";  
+	"^j" = "moveDown:";  
+
+	/* Chunk Movement */
+	"^e" = "moveWordForward:";
+	"^b" = "moveWordBackward:";
+	"^4" = "moveToEndOfLine:";
+	"^6" = "moveToBeginingOfLine:";
+
+	/* Deletes */
+	"^d" = "deleteWordBackward:";
+	"^f" = "deleteBackward:";
+	"^g" = "deleteForward:";
+}
